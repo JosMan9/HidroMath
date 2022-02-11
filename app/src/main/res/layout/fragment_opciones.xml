@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_opciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_datos"
+    tools:context=".OpcionesFragment">
+
+
+    <RadioGroup
+        android:id="@+id/grupoORIGINAL"
+        android:layout_width="370dp"
+        android:layout_height="168dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <RadioButton
+            android:id="@+id/perimetroORIGINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/perimetro_area" />
+
+        <RadioButton
+            android:id="@+id/radioHidraulicoORIGINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radio_hidraulico" />
+
+        <RadioButton
+            android:id="@+id/velocidadORIGINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/velocidad" />
+
+
+        <RadioButton
+            android:id="@+id/areaORIGINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/area" />
+
+        <RadioButton
+            android:id="@+id/radioCaudalORIGINAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/caudal" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/calcular"
+        android:textColor="@android:color/background_dark" />
+</FrameLayout>

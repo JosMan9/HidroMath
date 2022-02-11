@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacio_botones">30dp</dimen>
+    <dimen name="separacion_primer_dato">50dp</dimen>
+    <dimen name="ancho_botones">100dp</dimen>
+    <dimen name="altura_botones">50dp</dimen>
+    <dimen name="separacion_botones_orillas">35dp</dimen>
+    <dimen name="seapacion_textView">12dp</dimen>
+    <dimen name="seapacion_entre_datos">50dp</dimen>
+
+    <dimen name="seaparcion_primer_dato_editText">65dp</dimen>
+    <dimen name="seapacion_entre_TextView">60dp</dimen>
+    <dimen name="seapacion_spinner">70dp</dimen>
+    <dimen name="seapacion_editText_orillaDerecha">44dp</dimen>
+    <dimen name="ancho_spiner">150dp</dimen>
+    <dimen name="ancho_primer_EditText">58dp</dimen>
+    <dimen name="separacion_txt_resultado">50dp</dimen>
+    <dimen name="separacio_spinner2">70dp</dimen>
+
+    <dimen name="separacion_textView_editText">10dp</dimen>
+
+    <dimen name="separacion_entre_TextView_areaGasto">60dp</dimen>
+    <dimen name="separacion_entre_TextView_areaGasto2">50dp</dimen>
+    <dimen name="separacion_spinner_areaGasto">60dp</dimen>
+    <dimen name="separacion_editText_areaGasto">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoTrapezial">50dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoTrapezialo2">65dp</dimen>
+    <dimen name="separacion_spinner_gastoTrapezial">40dp</dimen>
+    <dimen name="separacion_editText_gastoTrapezial">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoCircular">50dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoCircular2">65dp</dimen>
+    <dimen name="separacion_spinner_gastoCircular">60dp</dimen>
+    <dimen name="separacion_editText_gastoCircular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoRectangular">45dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoRectangular2">55dp</dimen>
+    <dimen name="separacion_spinner_gastoRectangular">60dp</dimen>
+    <dimen name="separacion_editText_gastoRectangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_trapezial">40dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_trapezial2">60dp</dimen>
+    <dimen name="separacion_spinner_periemtro_trapezial">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_trapezial">30dp</dimen>
+
+    <dimen name="separacion_entre_TextView_velocidad">80dp</dimen>
+    <dimen name="separacion_entre_TextView_velocidad2">40dp</dimen>
+    <dimen name="separacion_spinner_veclocidad">35dp</dimen>
+    <dimen name="separacion_editText_velocidad">50dp</dimen>
+
+</resources>

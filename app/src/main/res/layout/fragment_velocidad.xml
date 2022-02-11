@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameVelocidad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".GastoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@drawable/fondo_datos">
+            android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            tools:context=".OpcionesFragment">
+
+
+            <RadioGroup
+                android:id="@+id/grupoVelocidad"
+                android:layout_width="370dp"
+                android:layout_height="168dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+                <RadioButton
+                    android:id="@+id/perimetroVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/perimetro_area" />
+
+                <RadioButton
+                    android:id="@+id/radioHidraulicoVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_hidraulico" />
+
+                <RadioButton
+                    android:id="@+id/velocidadVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/velocidad" />
+
+                <RadioButton
+                    android:id="@+id/areaVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/area" />
+
+                <RadioButton
+                    android:id="@+id/radioCaudalVelocidad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/caudal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt_calcularOpcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="29dp"
+                android:text="@string/calcular"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/txt_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grupoVelocidad"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_primer_dato"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="159dp"
+                android:layout_toStartOf="@+id/editRadioVelocidad"
+                android:layout_toLeftOf="@+id/editRadioVelocidad"
+                android:text="@string/radio_hidraulico"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_taludRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_radio"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_velocidad"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="132dp"
+                android:layout_toStartOf="@+id/editPendienteVelocidad"
+                android:layout_toLeftOf="@+id/editPendienteVelocidad"
+                android:text="@string/pendiente_hidraulica"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_Maning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_taludRadio"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_velocidad2"
+                android:layout_marginEnd="@dimen/separacion"
+                android:layout_marginRight="53dp"
+                android:layout_toStartOf="@+id/spinnerVelocidad"
+                android:layout_toLeftOf="@+id/spinnerVelocidad"
+                android:text="@string/numero_Manning"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/editRadioVelocidad"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/grupoVelocidad"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="@dimen/seaparcion_primer_dato_editText"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="77dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editPendienteVelocidad"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/editRadioVelocidad"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="@dimen/separacion_editText_velocidad"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="77dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/spinnerVelocidad"
+                android:layout_width="@dimen/ancho_spiner"
+                android:layout_height="35dp"
+                android:layout_below="@+id/editPendienteVelocidad"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/separacion_spinner_veclocidad"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@android:drawable/spinner_background"
+                android:entries="@array/datos"
+                android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/calcular_botonVelocidad"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/separacion_botones_orillas"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="590dp"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/calcular_boton" />
+
+            <Button
+                android:id="@+id/limpiar_botonVelocidad"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="590dp"
+                android:layout_marginEnd="@dimen/separacion_botones_orillas"
+                android:layout_marginRight="99dp"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/limpiar_boton" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/separacion_txt_resultado"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="631dp"
+                android:layout_marginEnd="@dimen/separacion_txt_resultado"
+                android:layout_marginRight="135dp"
+                android:gravity="center"
+                android:text="@string/resultado"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="707dp"
+                android:text="@string/velocidad"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_resultado_TrapezialVelocidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="707dp"
+                android:layout_marginEnd="@dimen/seapacion_textView"
+                android:layout_marginRight="140dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

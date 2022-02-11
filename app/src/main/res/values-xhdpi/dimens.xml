@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacio_botones">40dp</dimen>
+    <dimen name="separacion_primer_dato">89dp</dimen>
+    <dimen name="ancho_botones">100dp</dimen>
+    <dimen name="altura_botones">30dp</dimen>
+    <dimen name="separacion_botones_orillas">30dp</dimen>
+    <dimen name="seapacion_textView">12dp</dimen>
+    <dimen name="seapacion_entre_datos">35dp</dimen>
+
+    <dimen name="seaparcion_primer_dato_editText">80dp</dimen>
+    <dimen name="seapacion_entre_TextView">60dp</dimen>
+    <dimen name="seapacion_spinner">66dp</dimen>
+    <dimen name="seapacion_editText_orillaDerecha">34dp</dimen>
+    <dimen name="ancho_spiner">150dp</dimen>
+    <dimen name="separacion_txt_resultado">50dp</dimen>
+    <dimen name="botones_abajo_gastoCircular">700dp</dimen>
+</resources>

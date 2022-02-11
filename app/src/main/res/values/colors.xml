@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="opcion_deseleccionada">#FCB8A9</color>
+    <color name="opcion_seleccionada">#FE1607</color>
+    <color name="color_fondo">#F1E613</color>
+    <color name="menu_color">#46CD87</color>
+</resources>

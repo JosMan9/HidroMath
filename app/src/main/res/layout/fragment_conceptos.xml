@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".ConceptosFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardElevation="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1400dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="309dp"
+                    android:text="@string/elementos_titulo"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="58dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="286dp"
+                    android:text="@string/elementos_descripción"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="192dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="298dp"
+                    android:text="@string/tirante_titulo"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="304dp"
+                    android:text="@string/talud_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="334dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="298dp"
+                    android:text="@string/ancho_superficial_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="360dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="322dp"
+                    android:text="@string/ancho_superficial_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="411dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="312dp"
+                    android:text="@string/talud_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="435dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="313dp"
+                    android:text="@string/talud_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="555dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="300dp"
+                    android:text="@string/coeficiente_rugosidad_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="582dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="314dp"
+                    android:text="@string/coeficiente_rugosidad_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="630dp"
+                    android:text="@string/pendiente_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="655dp"
+                    android:text="@string/pendiente_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="701dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="312dp"
+                    android:text="@string/area_hidrualica_titutlo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="729dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="314dp"
+                    android:text="@string/area_hidraulica_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="796dp"
+                    android:text="@string/perimetro_titulo_info"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="823dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="323dp"
+                    android:text="@string/perimetro_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="897dp"
+                    android:text="@string/radio_hridraulico_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="922dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="320dp"
+                    android:text="@string/radio_hidraulico_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="987dp"
+                    android:text="@string/gasto_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="1015dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="319dp"
+                    android:text="@string/gasto_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="1110dp"
+                    android:text="@string/numero_froude_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1135dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="318dp"
+                    android:text="@string/numero_froude_descripcion"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1234dp"
+                    android:text="@string/velocidad_titulo"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1258dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="318dp"
+                    android:text="@string/velocidad_descripcion"
+                    android:textColor="@android:color/background_dark" />
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

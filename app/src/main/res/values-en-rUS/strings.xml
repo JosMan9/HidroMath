@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HidroMath</string>
+    <string name="configuracion">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="contacto">Contact</string>
+    <string name="informacion">Information</string>
+    <string name="nombre_capitulo">Hydraulic Chapter</string>
+    <string name="flujo_normal">Trapezoidal Section</string>
+    <string name="flujo_normal_rectangular">Rectangular Section</string>
+    <string name="flujo_normal_triangular">Triangular Section</string>
+    <string name="flujo_normal_circular">Circular Section</string>
+
+    <string name="bienvenida">HidroMath "\n"
+       Make your calculations to design channels.</string>
+
+    <string name="calculo">Calculate</string>
+    <string name="concepto">About</string>
+    <string name="procedimiento">Procedimiento</string>
+    <string name="nomenclatura">Nomenclature</string>
+
+    <string name="calcular">Calculate: </string>
+    <string name="caudal">Flow or Expense</string>
+    <string name="velocidad">Speed</string>
+    <string name="areaRH">Hydraulic Area (from the hydraulic radius)</string>
+    <string name="area">Area Hydraulic (from the flow)</string>
+    <string name="radio_hidraulico">Hydraulic Radius</string>
+    <string name="perimetro">Perimeter</string>
+    <string name="perimetroRH">Perimeter (from the hydraulic radius)</string>
+    <string name="ancho">Width of the canal template</string>
+    <string name="tirante">Water depth in the canal</string>
+    <string name="pendiente">Slope of the walls of the canal</string>
+    <string name="numero_Manning">Manning Number</string>
+    <string name="pendiente_hidraulica">Hydraulic Slope</string>
+    <string name="calcular_boton">Calculate</string>
+    <string name="limpiar_boton">Clean</string>
+    <string name="tabla">Tables</string>
+    <string name="perimetro_area">Perimeter and area</string>
+    <string name="titulo_area">Hydraulic Area</string>
+    <string name="descripcion_area">Where: "\n""\n" A = hydraulic area "\n" b = template width "\n" d = water depth in the canal
+                                    "\n" m = slope of the walls of the canal</string>
+    <string name="titulo_perimetro">Wet Perimeter</string>
+    <string name="descripcion_perimetro">Where: "\n""\n" P = wet perimeter "\n" b = template width "\n" d = water depth in the canal
+        "\n" m = slope of the walls of the canal  </string>
+    <string name="descripcion_area_rectangulo">Where: "\n""\n" A = hydraulic area "\n" b = template width "\n" d = water depth in the canal</string>
+    <string name="descripcion_area_triangular">Where: "\n""\n" A = hydraulic area "\n" d = water depth in the canal
+                                    "\n" m = slope of the walls of the canal</string>
+    <string name="descripcion_perimetro_triangular">Where: "\n""\n" P = wet perimeter "\n" d = water depth in the canal
+                                    "\n" m = slope of the walls of the canal</string>
+    <string name="descripcion_perimetro_rectangular">Where: "\n""\n" P = wet perimeter "\n" b = template width "\n" d = water depth in the canal</string>
+
+    <string name="resultado">Results</string>
+    <string name="areaHidraulica">Hydraulic Area</string>
+
+    <string name="definicio_canal">The canals are open or closed conduits in which the water circulates due to
+  the action of gravity and without any pressure, because the free surface of the liquid is in contact with the
+ atmosphere This means that water flows driven by atmospheric pressure and by its own weight.</string>
+
+    <string name="titulo_clasificacion">Classification of canals.</string>
+    <string name="canales_naturales">Natural canals</string>
+    <string name="canal_natural_descripcion">They include all the water courses that exist naturally in the land,
+    which vary in size from small streams in mountainous areas, to streams, small and large rivers
+    streams, lakes and lagoons. Underground currents are also considered natural channels. The transverse section
+    of a natural channel is generally very irregular and variable within its path.</string>
+    <string name="canales_artificiales">Artificial Canals</string>
+    <string name="canal_artificial_descripcion">Artificial canals are all those built or
+    developed by the effort of the hand of man, such as: irrigation canals, navigation,
+    flood control, canals of hydroelectric centrals, storm sewer, sanitary, overflow canals,
+    wooden gutters, ditches along roads, agricultural drainage ditches and built-model canals
+    at the laboratory. Artificial canals are usually designed with regular geometric shapes, also called
+    binoculars, a canal built with an invariable cross section and a constant bottom slope is known
+    as a prismatic canal.</string>
+    <string name="secciones_transversales">Transverse sections</string>
+    <string name="trapezial_descripcion">It is used in ground channels because they provide the necessary slopes to stabilize
+    ,and in coated canals</string>
+    <string name = "rectangular_descripcion"> Because the rectangle has vertical sides, it is usually used
+     for canals built with stable materials, wooden aqueducts, for canals excavated in rock and for
+    coated canals.</string>
+    <string name="triangular_descripcion">It is used for covered gutters on roads, also on waterways
+    small earth, mainly for ease of stroke. They are also used coated, as sewers of the
+    roads.</string>
+    <string name="circular_descripcion">The circle is the most common section for sewers and sewers of
+        small and medium sizes.</string>
+    <string name="elementos_titulo">Geometrical elements of the canals</string>
+    <string name="elementos_descripción">Geometric elements are properties of a canal section that can be defined
+    completely by the geometry of the section and the depth of the flow. The most well-known form of the section
+    cross section of a canal is the trapezoidal.</string>
+    <string name="tirante_titulo">Water depth or flow depth (d)</string>
+    <string name="tirante_descripcion">It is the vertical distance from the lowest point of a section of the canal
+    up to the free surface, that is, the maximum depth.</string>
+    <string name="ancho_superficial_titulo">Surface width or water mirror (T)</string>
+    <string name="ancho_superficial_descripcion">It is the width of the free surface of the water, in m</string>
+    <string name="talud_titulo">Slope (m)</string>
+    <string name="talud_descripcion">It is the ratio of the horizontal projection to the vertical of the side wall
+     (It is also called the slope of the walls of the canal). That is, "m" is the value of the projection when the
+     vertical is 1. It is expressed as the cotangent of the angle of repose of the material.</string>
+    <string name="coeficiente_rugosidad_titulo">Coefficient of roughness (n)</string>
+    <string name="coeficiente_rugosidad_descripcion">It depends on the type of material in which the canal is housed.</string>
+    <string name="pendiente_titulo">Incline (S)</string>
+    <string name="area_hidrualica_titutlo">Hydraulic area (A)</string>
+    <string name="area_hidraulica_descripcion">It is the surface occupied by water in a cross section
+     normal any, is expressed in m²</string>
+    <string name="pendiente_descripcion">It is the longitudinal slope of the grade of the material.</string>
+    <string name="perimetro_titulo_info">Wet perimeter (P)</string>
+    <string name="perimetro_descripcion">It is the length of the contour line of the wet area between the water
+     and the walls of the canal, expressed in m</string>
+    <string name="radio_hridraulico_titulo">Hydraulic radio (R)</string>
+    <string name="radio_hidraulico_descripcion">It is the quotient of the hydraulic area and the wet perimeter.</string>
+    <string name="gasto_descripcion">It is the volume of water that passes in the cross section of the channel in the unit
+         time, and is expressed in m³/s</string>
+    <string name="gasto_titulo">Flow (Q)</string>
+    <string name="velocidad_titulo">Average speed (V)</string>
+    <string name="velocidad_descripcion">It is the one with which the water flows in the channel, expressed in m/s</string>
+    <string name="numero_froude_titulo">Froude number</string>
+    <string name="numero_froude_descripcion">It is the effect of gravity on the state of flow represented by the
+    relationship between inertial forces and gravitational forces.</string>
+    <string name="informacion_titulo">Information</string>
+    <string name="conceptos_titulo">Concepts</string>
+    <string name="formula_titulo">General formulas</string>
+    <string name="secciones">Sections</string>
+
+    <string name="gasto_formula">Where: "\n" "\n" Q = expense in m³/s "\n" n = Manning roughness coefficient
+    "\n" S = hydraulic slope of the canal "\n" A = hydraulic canal area in m² "\n" R = hydraulic radius in m</string>
+    <string name="radio_formula">Where: "\n" "\n" A = canal hydraulic area in m² "\n" P = wet perimeter in m</string>
+
+    <string name="maxima_eficiencia">Maximum Efficiency</string>
+
+    <string name="diametro">Diameter of the closed canal</string>
+
+    <string name="formula_areaCirculo">Where: "\n" "\n" A = hydraulic area "\n" d = water depth "\n" D = canal diameter
+    "\n" θ = formed angle at the height of the liquid with the center (radians) "\n" θ´ = formed angle at the height of the liquid with the center (degrees).</string>
+
+    <string name="formula_perimetro_circular">Where: "\n" "\n" P = wet perimeter "\ n" D = canal diameter
+    "\ n" θ = formed angle at the height of the liquid with the center (radians).</string>
+
+    <string name="teta_formula">Where: "\n" \n "θ = formed angle at the height of the liquid with the center (radians).
+    "\n" D = canal diameter "\n" d = water depth.</string>
+
+    <string name="tabla_titulo">Table of coefficients of Manning´s number (n)</string>
+    <string name="minimo">Minimum</string>
+    <string name="normal">Normal</string>
+    <string name="maximo">Maximum</string>
+    <string name="material">Material</string>
+    <string name="arroyo">Mountain stream with many stones</string>
+    <string name="tepetate">Tepetate (smooth and uniform)</string>
+    <string name="tierra">Land in good conditions</string>
+    <string name="tierra_libre">Free land in vegetation</string>
+    <string name="mamposteriaSeca">Drywall</string>
+    <string name="mamposteria_cemento">Masonry with cement</string>
+    <string name="concreto">Concrete</string>
+    <string name="asbesto_cemento">Asbestos cement</string>
+    <string name="polietlileno">Polyethylene and PVC</string>
+    <string name="fierro">Cast iron</string>
+    <string name="acero">Steel</string>
+    <string name="vidrio_cobre">Glass, copper</string>
+    <string name="info_general">General Information</string>
+    <string name="tipo_flujo">Type of flow</string>
+
+    <string name="equipo">Application created in conjunction with the UMALUCS Association and the Hydraulics chapter of the
+    Autonomous University of Guerrero.</string>
+
+    <string name="facebook_capitulo">Facebook: Capítulo Estudiantil De Hidráulica UAGro </string>
+    <string name="facebook_umalucs">Facebook: Asociación Umalucs </string>
+    <string name="correo">Developers Mail: umalucsasociacion@gmail.com</string>
+    <string name="bibliografia">Bibliography</string>
+    <string name="imgenes">References</string>
+
+    <string name="froude_descripcion">Where: "\n""\n" F = Froude number "\n" "\ n" V = speed in m/s"\n" g = gravity (9.81 m/s²) "\n" d = canal depth in m</string>
+
+    <string-array name="datos">
+        <item> </item>
+        <item>Mountain stream with many stones</item>
+        <item>Tepetate (smooth and uniform)</item>
+        <item>Land in good conditions</item>
+        <item>Free land in vegetation</item>
+        <item>Drywall</item>
+        <item>Masonry with cement</item>
+        <item>Concrete</item>
+        <item>Asbestos cement</item>
+        <item>Polyethylene and PVC</item>
+        <item>Cast iron</item>
+        <item>Steel</item>
+        <item>Glass, copper</item>
+    </string-array>
+
+
+</resources>

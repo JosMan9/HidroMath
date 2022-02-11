@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacio_botones">65dp</dimen>
+    <dimen name="separacion_primer_dato">50dp</dimen>
+    <dimen name="ancho_botones">100dp</dimen>
+    <dimen name="altura_botones">35dp</dimen>
+    <dimen name="separacion_botones_orillas">45dp</dimen>
+    <dimen name="seapacion_textView">20dp</dimen>
+    <dimen name="seapacion_entre_datos">65dp</dimen>
+
+    <dimen name="seaparcion_primer_dato_editText">43dp</dimen>
+    <dimen name="seapacion_entre_TextView">80dp</dimen>
+    <dimen name="seapacion_spinner">78dp</dimen>
+    <dimen name="seapacion_editText_orillaDerecha">40dp</dimen>
+    <dimen name="ancho_spiner">210dp</dimen>
+    <dimen name="ancho_primer_EditText">88dp</dimen>
+    <dimen name="separacion_definicion_canales">10dp</dimen>
+    <dimen name="separacion_titulos_informacion">80dp</dimen>
+    <dimen name="dimension_imagenes">400dp</dimen>
+    <dimen name="separacion_orrilla_Derecha">120dp</dimen>
+    <dimen name="dimension_imagenes2">240dp</dimen>
+    <dimen name="separacion_textView_editText">20dp</dimen>
+    <dimen name="separacion_ultimoTextView">50dp</dimen>
+    <dimen name="separacion_txt_resultado">20dp</dimen>
+    <dimen name="separacio_spinner2">78dp</dimen>
+    <dimen name="botones_abajo_gastoCircular">710dp</dimen>
+    <dimen name="botones_abajo_gastoRectangulo">710dp</dimen>
+    <dimen name="botones_abajo_gastoTriangulo">710dp</dimen>
+    <dimen name="separacion_text2">30dp</dimen>
+
+
+    <dimen name="separacion_entre_TextView_areaGasto">80dp</dimen>
+    <dimen name="separacion_entre_TextView_areaGasto2">75dp</dimen>
+    <dimen name="separacion_spinner_areaGasto">65dp</dimen>
+    <dimen name="separacion_editText_areaGasto">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoTrapezial">80dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoTrapezialo2">75dp</dimen>
+    <dimen name="separacion_spinner_gastoTrapezial">40dp</dimen>
+    <dimen name="separacion_editText_gastoTrapezial">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoCircular">70dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoCircular2">75dp</dimen>
+    <dimen name="separacion_spinner_gastoCircular">60dp</dimen>
+    <dimen name="separacion_editText_gastoCircular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoRectangular">80dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoRectangular2">70dp</dimen>
+    <dimen name="separacion_spinner_gastoRectangular">60dp</dimen>
+    <dimen name="separacion_editText_gastoRectangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoTriangular">65dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoTriangular2">80dp</dimen>
+    <dimen name="separacion_spinner_gastoTriangular">35dp</dimen>
+    <dimen name="separacion_editText_gastoTriangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_circular">80dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_circular2">70dp</dimen>
+    <dimen name="separacion_spinner_periemtro_circular">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_circular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_rectangular">80dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_rectangular2">70dp</dimen>
+    <dimen name="separacion_spinner_periemtro_rectangular">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_rectangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_triangular">80dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_triangular2">70dp</dimen>
+    <dimen name="separacion_spinner_periemtro_triangular">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_triangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_trapezial">80dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_trapezial2">70dp</dimen>
+    <dimen name="separacion_spinner_periemtro_trapezial">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_trapezial">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_velocidad">80dp</dimen>
+    <dimen name="separacion_entre_TextView_velocidad2">40dp</dimen>
+    <dimen name="separacion_spinner_veclocidad">35dp</dimen>
+    <dimen name="separacion_editText_velocidad">50dp</dimen>
+    <dimen name="separacion">30dp</dimen>
+
+    <dimen name="top_imagen">300dp</dimen>
+</resources>

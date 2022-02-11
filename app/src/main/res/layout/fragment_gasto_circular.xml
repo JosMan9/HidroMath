@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameCirculoGasto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".GastoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@drawable/fondo_datos">
+            android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            tools:context=".OpcionesFragment">
+
+
+            <RadioGroup
+                android:id="@+id/grupoGastoCircular"
+                android:layout_width="370dp"
+                android:layout_height="168dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+                <RadioButton
+                    android:id="@+id/perimetroCirculoGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/perimetro_area" />
+
+                <RadioButton
+                    android:id="@+id/radioHidraulicoCirculoGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_hidraulico" />
+
+                <RadioButton
+                    android:id="@+id/velocidadCirculoGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/velocidad" />
+
+                <RadioButton
+                    android:id="@+id/areaCirculoGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/area" />
+
+                <RadioButton
+                    android:id="@+id/radioCaudalCirculoGasto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/caudal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt_calcularOpcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="29dp"
+                android:text="@string/calcular"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/txt_diametro_gasto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grupoGastoCircular"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="@dimen/seapacion_entre_datos"
+                android:layout_marginTop="@dimen/separacion_primer_dato"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="57dp"
+                android:layout_toStartOf="@+id/edit_DiametroGastoCircular"
+                android:layout_toLeftOf="@+id/edit_DiametroGastoCircular"
+                android:text="@string/diametro"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_tiranteGastoCircular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_diametro_gasto"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoCircular"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="56dp"
+                android:layout_toStartOf="@+id/editTiranteGastoCircular"
+                android:layout_toLeftOf="@+id/editTiranteGastoCircular"
+                android:text="@string/tirante"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_Maning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_tiranteGastoCircular"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoCircular2"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="73dp"
+                android:layout_toStartOf="@+id/spinnerGastoCircular"
+                android:layout_toLeftOf="@+id/spinnerGastoCircular"
+                android:text="@string/numero_Manning"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edit_DiametroGastoCircular"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/grupoGastoCircular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="@dimen/seaparcion_primer_dato_editText"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="75dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editTiranteGastoCircular"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_DiametroGastoCircular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="@dimen/separacion_editText_gastoCircular"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="@dimen/seapacion_editText_orillaDerecha"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/spinnerGastoCircular"
+                android:layout_width="@dimen/ancho_spiner"
+                android:layout_height="35dp"
+                android:layout_below="@+id/editTiranteGastoCircular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/separacion_spinner_gastoCircular"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:drawable/spinner_background"
+                android:entries="@array/datos"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/calcular_botonGastoCirculo"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/separacion_botones_orillas"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="@dimen/botones_abajo_gastoCircular"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/calcular_boton" />
+
+            <Button
+                android:id="@+id/limpiar_botonGastoCirculo"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/botones_abajo_gastoCircular"
+                android:layout_marginEnd="@dimen/separacion_botones_orillas"
+                android:layout_marginRight="@dimen/separacion_botones_orillas"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/limpiar_boton" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/separacion_txt_resultado"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="762dp"
+                android:layout_marginEnd="@dimen/separacion_txt_resultado"
+                android:layout_marginRight="135dp"
+                android:gravity="center"
+                android:text="@string/resultado"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="831dp"
+                android:text="@string/caudal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_resultado_GastoCirculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="831dp"
+                android:layout_marginEnd="@dimen/seapacion_textView"
+                android:layout_marginRight="74dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_Maning"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoCircular"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="61dp"
+                android:layout_toStartOf="@+id/editPendienteGastoCirculo"
+                android:layout_toLeftOf="@+id/editPendienteGastoCirculo"
+                android:text="@string/pendiente_hidraulica"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editPendienteGastoCirculo"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/spinnerGastoCircular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/separacion_editText_gastoCircular"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="35dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <CheckBox
+                android:id="@+id/checkGastoCirculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="241dp"
+                android:text="@string/maxima_eficiencia" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="890dp"
+                android:text="@string/tipo_flujo"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/froude_txtCircular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="890dp"
+                android:layout_marginEnd="@dimen/seapacion_textView"
+                android:layout_marginRight="302dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

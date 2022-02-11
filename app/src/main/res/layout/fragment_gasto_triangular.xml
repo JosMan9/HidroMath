@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".GastoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:background="@drawable/fondo_datos">
+            android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            tools:context=".OpcionesFragment">
+
+
+            <RadioGroup
+                android:id="@+id/grupoGastoTriangular"
+                android:layout_width="370dp"
+                android:layout_height="168dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+                <RadioButton
+                    android:id="@+id/perimetroGastoTriangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/perimetro_area" />
+
+                <RadioButton
+                    android:id="@+id/radioHidraulicoGastoTriangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_hidraulico" />
+
+                <RadioButton
+                    android:id="@+id/velocidadGastoTriangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/velocidad" />
+
+                <RadioButton
+                    android:id="@+id/areaGastoTriangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/area" />
+
+                <RadioButton
+                    android:id="@+id/radioCaudalGastoTriangular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/caudal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txt_calcularOpcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="42dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="29dp"
+                android:text="@string/calcular"
+                android:textColor="@android:color/background_dark" />
+
+
+            <TextView
+                android:id="@+id/txt_tirantePerimetro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/grupoGastoTriangular"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_primer_dato"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="67dp"
+                android:layout_toStartOf="@+id/editTiranteGastoTriangular"
+                android:layout_toLeftOf="@+id/editTiranteGastoTriangular"
+                android:text="@string/tirante"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_taludRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_tirantePerimetro"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoTriangular"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="57dp"
+                android:layout_toStartOf="@+id/editTaludGastoTriangular"
+                android:layout_toLeftOf="@+id/editTaludGastoTriangular"
+                android:text="@string/pendiente"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_ManingGastoTriangular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoTriangular"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:layout_toStartOf="@+id/spinnerGastoTriangular"
+                android:layout_toLeftOf="@+id/spinnerGastoTriangular"
+                android:text="@string/numero_Manning"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTiranteGastoTriangular"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/grupoGastoTriangular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="@dimen/seaparcion_primer_dato_editText"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="77dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editTaludGastoTriangular"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/editTiranteGastoTriangular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="@dimen/separacion_editText_gastoTriangular"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="77dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <Spinner
+                android:id="@+id/spinnerGastoTriangular"
+                android:layout_width="@dimen/ancho_spiner"
+                android:layout_height="35dp"
+                android:layout_below="@+id/editGastoPendienteTriangular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/separacion_spinner_gastoTriangular"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:drawable/spinner_background"
+                android:entries="@array/datos"
+                android:gravity="center" />
+
+
+            <Button
+                android:id="@+id/calcular_botonGastoTriangular"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/separacion_botones_orillas"
+                android:layout_marginLeft="81dp"
+                android:layout_marginTop="@dimen/botones_abajo_gastoTriangulo"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/calcular_boton" />
+
+            <Button
+                android:id="@+id/limpiar_botonGastoTriangular"
+                android:layout_width="@dimen/ancho_botones"
+                android:layout_height="@dimen/altura_botones"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/botones_abajo_gastoTriangulo"
+                android:layout_marginEnd="@dimen/separacion_botones_orillas"
+                android:layout_marginRight="99dp"
+                android:background="@drawable/redondo_botones"
+                android:text="@string/limpiar_boton" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_taludRadio"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="@dimen/separacion_entre_TextView_gastoTriangular2"
+                android:layout_marginEnd="@dimen/separacion_textView_editText"
+                android:layout_marginRight="114dp"
+                android:layout_toStartOf="@+id/editGastoPendienteTriangular"
+                android:layout_toLeftOf="@+id/editGastoPendienteTriangular"
+                android:text="@string/pendiente_hidraulica"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editGastoPendienteTriangular"
+                android:layout_width="88dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/editTaludGastoTriangular"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/separacion_editText_gastoTriangular"
+                android:layout_marginEnd="@dimen/seapacion_editText_orillaDerecha"
+                android:layout_marginRight="18dp"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/separacion_txt_resultado"
+                android:layout_marginLeft="158dp"
+                android:layout_marginTop="763dp"
+                android:layout_marginEnd="@dimen/separacion_txt_resultado"
+                android:layout_marginRight="101dp"
+                android:gravity="center"
+                android:text="@string/resultado"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/etiqeuta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="134dp"
+                android:layout_marginTop="818dp"
+                android:text="@string/caudal"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_ResultadoGastoTriangular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="818dp"
+                android:layout_marginEnd="@dimen/seapacion_textView"
+                android:layout_marginRight="175dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/seapacion_textView"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="890dp"
+                android:text="@string/tipo_flujo"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/froude_txtTriangular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="890dp"
+                android:layout_marginEnd="@dimen/seapacion_textView"
+                android:layout_marginRight="302dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

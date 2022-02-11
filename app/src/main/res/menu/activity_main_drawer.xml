@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/content_main">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/canales"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/flujo_normal"
+            android:title="@string/flujo_normal" />
+        <item
+            android:id="@+id/flujo_normal_rectangular"
+            android:title="@string/flujo_normal_rectangular" />
+        <item
+            android:id="@+id/flujo_normal_triangular"
+            android:title="@string/flujo_normal_triangular" />
+        <item
+            android:id="@+id/flujo_normal_circular"
+            android:title="@string/flujo_normal_circular" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/infoDrawer"
+                android:title="@string/informacion"/>
+            <item
+                android:id="@+id/redes"
+                android:title="@string/contacto"/>
+        </menu>
+    </item>
+
+</menu>

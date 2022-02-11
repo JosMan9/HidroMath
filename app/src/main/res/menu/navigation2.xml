@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/informacion_navegador"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/informacion_titulo" />
+
+    <item
+        android:id="@+id/concpetos_navegador"
+        android:icon="@drawable/ic_concepto"
+        android:title="@string/conceptos_titulo" />
+
+    <item
+        android:id="@+id/formuula_navegador"
+        android:icon="@drawable/ic_nomenclatura"
+        android:title="@string/formula_titulo" />
+
+    <item
+        android:id="@+id/secciones_navegador"
+        android:icon="@drawable/ic_seccion_circular"
+        android:title="@string/secciones" />
+
+</menu>

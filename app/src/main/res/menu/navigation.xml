@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calculo_navegador"
+        android:icon="@drawable/ic_calculo"
+        android:title="@string/calculo" />
+
+    <item
+        android:id="@+id/tablas_navegador"
+        android:icon="@drawable/ic_tabla"
+        android:title="@string/tabla" />
+
+    <item
+        android:id="@+id/nomenclatura_navegador"
+        android:icon="@drawable/ic_nomenclatura"
+        android:title="@string/nomenclatura"/>
+
+</menu>

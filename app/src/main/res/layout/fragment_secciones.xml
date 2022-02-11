@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".SeccionesFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardElevation="5dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1100dp">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="196dp"
+                    android:text="@string/flujo_normal"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="213dp"
+                    android:text="@string/trapezial_descripcion"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="364dp"
+                    android:layout_height="102dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/trapecio_sin_cota" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="271dp"
+                    android:text="@string/flujo_normal_rectangular"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="313dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/rectangular_descripcion"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="372dp"
+                    android:layout_height="105dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="83dp"
+                    android:layout_marginTop="397dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/rectangular_sin_cota" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginTop="544dp"
+                    android:text="@string/flujo_normal_triangular"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="582dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/triangular_descripcion"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="366dp"
+                    android:layout_height="105dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="670dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/triangular_sin_cota" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="822dp"
+                    android:text="@string/flujo_normal_circular"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="871dp"
+                    android:layout_marginEnd="@dimen/separacion_definicion_canales"
+                    android:layout_marginRight="0dp"
+                    android:text="@string/circular_descripcion"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="356dp"
+                    android:layout_height="105dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/separacion_definicion_canales"
+                    android:layout_marginLeft="118dp"
+                    android:layout_marginTop="926dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/circulo_sin_cota" />
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

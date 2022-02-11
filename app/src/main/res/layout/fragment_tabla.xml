@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".TablaFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardElevation="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableLayout
+                    android:id="@+id/tabla"
+                    android:layout_width="1500dp"
+                    android:layout_height="700dp"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_span="6"
+                            android:baselineAligned="false"
+                            android:gravity="center"
+                            android:text="@string/tabla_titulo"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila2"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_encabezados"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="147dp"
+                            android:baselineAligned="false"
+                            android:gravity="center"
+                            android:text="@string/material"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/encabezado_minimo"
+                            android:layout_width="70dp"
+                            android:gravity="center"
+                            android:text="@string/minimo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/encabezado_normal"
+                            android:layout_width="70dp"
+                            android:gravity="center"
+                            android:text="@string/normal"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/encabezado_máximo"
+                            android:layout_width="70dp"
+                            android:gravity="center"
+                            android:text="@string/maximo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/fila_espacio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/espacioFila1"
+                            android:layout_width="100dp"
+                            android:text="  "
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/fila_materiales"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fila_arroyo"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:gravity="center"
+                            android:text="@string/arroyo"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/minimo_arroyo"
+                            android:gravity="center"
+                            android:text=" \n0.035"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/normal_arroyo"
+                            android:gravity="center"
+                            android:text="  \n0.040"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/maximo_arroyo"
+                            android:gravity="center"
+                            android:text="  \n0.050"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/espacioFila"
+                            android:layout_width="100dp"
+                            android:text="  "
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/fila_tepetate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tepetate"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="@string/tepetate"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/miinimo_tepetate"
+                            android:gravity="center"
+                            android:text="0.025"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/normal_tepetate"
+                            android:gravity="center"
+                            android:text="0.035"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/maximo_tepetate"
+                            android:gravity="center"
+                            android:text="0.040"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila4"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_tepetate5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/tierra_buena"
+                            android:gravity="center"
+                            android:text="@string/tierra"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"
+                            app:autoSizeTextType="uniform"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_buena_minimo"
+                            android:gravity="center"
+                            android:text="0.017"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_buena_normal"
+                            android:gravity="center"
+                            android:text="0.020"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_buena_maximo"
+                            android:gravity="center"
+                            android:text="0.025"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila6"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_tierra_libre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/tierra_libre"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/tierra_libre"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_libre_minimo"
+                            android:gravity="center"
+                            android:text="0.020"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_libre_normal"
+                            android:gravity="center"
+                            android:text="0.025"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/tierra_libre_maximo"
+                            android:gravity="center"
+                            android:text="0.033"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila7"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_mamaposteríaSeca"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/mamposteriaSeca"
+                            android:gravity="center"
+                            android:text="@string/tierra"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/mamposteriaSeca_minimo"
+                            android:gravity="center"
+                            android:text="0.025"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/mamposteriaSeca_normal"
+                            android:gravity="center"
+                            android:text="0.030"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/mamposteriaSeca_maximo"
+                            android:gravity="center"
+                            android:text="0.033"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila8"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_mamapostería_con_cemento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/mamposteria_cemento"
+                            android:gravity="center"
+                            android:text="@string/mamposteria_cemento"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/mamposteria_cemento_minimo"
+                            android:gravity="center"
+                            android:text="0.017"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/fila_mamapostería_con_cemento_normal"
+                            android:gravity="center"
+                            android:text="0.020"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/mamposteria_cemento_maximo"
+                            android:gravity="center"
+                            android:text="0.025"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila9"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_concreto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/concreto"
+                            android:gravity="center"
+                            android:text="@string/concreto"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/concreto_minimo"
+                            android:gravity="center"
+                            android:text="0.013"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/concreto_normal"
+                            android:gravity="center"
+                            android:text="0.017"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/concreto_maximo"
+                            android:gravity="center"
+                            android:text="0.020"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila10"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_asbesto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/asbesto"
+                            android:gravity="center"
+                            android:text="@string/asbesto_cemento"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/asbesto_minimo"
+                            android:gravity="center"
+                            android:text="0.09"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/asbesto_normal"
+                            android:gravity="center"
+                            android:text="0.010"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/asbesto_maximo"
+                            android:gravity="center"
+                            android:text="0.011"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila11"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_pvc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/pvc"
+                            android:gravity="center"
+                            android:text="@string/polietlileno"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/pvc_minimo"
+                            android:gravity="center"
+                            android:text="0.007"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/pvc_normal"
+                            android:gravity="center"
+                            android:text="0.008"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/pvc_maximo"
+                            android:gravity="center"
+                            android:text="0.009"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila12"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_fierroFundido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/fierroFundido"
+                            android:gravity="center"
+                            android:text="@string/fierro"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/fierroFundido_minimo"
+                            android:gravity="center"
+                            android:text="0.011"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/fierroFundido_normal"
+                            android:gravity="center"
+                            android:text="0.014"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/fierroFundido_maximo"
+                            android:gravity="center"
+                            android:text="0.016"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila13"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_acero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/acero"
+                            android:gravity="center"
+                            android:text="@string/acero"
+                            android:textColor="@android:color/background_dark"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/acero_minimo"
+                            android:gravity="center"
+                            android:text="0.013"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/acero_normal"
+                            android:gravity="center"
+                            android:text="0.015"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/acero_maximo"
+                            android:gravity="center"
+                            android:text="0.017"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/espacio14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></TableRow>
+
+                    <TextView
+                        android:id="@+id/espacioFila14"
+                        android:layout_width="100dp"
+                        android:text="  "
+                        android:typeface="serif"></TextView>
+
+                    <TableRow
+                        android:id="@+id/fila_vidrio_cobre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black">
+
+                        <TextView
+                            android:id="@+id/vidrio_cobre"
+                            android:gravity="center"
+                            android:text="@string/vidrio_cobre"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/vidrio_cobre_minimo"
+                            android:gravity="center"
+                            android:text="0.009"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/vidrio_cobre_nomral"
+                            android:gravity="center"
+                            android:text="0.010"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+
+                        <TextView
+                            android:id="@+id/vidrio_cobre_maximo"
+                            android:gravity="center"
+                            android:text="0.010"
+                            android:textColor="@android:color/black"
+                            android:typeface="serif"></TextView>
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>
+

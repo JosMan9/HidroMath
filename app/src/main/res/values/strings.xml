@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HidroMath</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="configuracion">Configuración</string>
+    <string name="contacto">Contacto</string>
+    <string name="informacion">Información</string>
+    <string name="nombre_capitulo">Capítulo de Hidráulica</string>
+    <string name="flujo_normal">Sección Trapecial</string>
+    <string name="flujo_normal_rectangular">Sección Rectangular</string>
+    <string name="flujo_normal_triangular">Sección Triangular</string>
+    <string name="flujo_normal_circular">Sección Circular</string>
+
+    <string name="bienvenida">HidroMath"\n"
+       Realiza tus cálculos para diseñar canales.</string>
+
+    <string name="calculo">Calcular</string>
+    <string name="concepto">Concepto</string>
+    <string name="procedimiento">Procedimiento</string>
+    <string name="nomenclatura">Nomenclatura</string>
+
+    <string name="calcular">Calcular: </string>
+    <string name="caudal">Caudal o Gasto</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="areaRH">Área Hidráulica (a partir del radio hidráulico)</string>
+    <string name="area">Área Hidráulica (a partir del gasto)</string>
+    <string name="radio_hidraulico">Radio Hidráulico</string>
+    <string name="perimetro">Perímetro</string>
+    <string name="perimetroRH">Perímetro (a parir del radio hidráulico</string>
+    <string name="ancho">Ancho de la plantilla del canal</string>
+    <string name="tirante">Tirante del agua en el canal</string>
+    <string name="pendiente">Talud de las paredes del canal</string>
+    <string name="numero_Manning">Número de Manning</string>
+    <string name="pendiente_hidraulica">Pendiente Hidráulica</string>
+    <string name="calcular_boton">Calcular</string>
+    <string name="limpiar_boton">Limpiar</string>
+    <string name="tabla">Tablas</string>
+    <string name="perimetro_area">Perímetro y área</string>
+    <string name="titulo_area">Área Hidráulica</string>
+    <string name="descripcion_area">Donde: "\n""\n" A = área hidráulica "\n" b = ancho de plantilla
+                                    "\n" d = tirante del agua en el canal "\n" m = talud de las paredes del canal</string>
+    <string name="titulo_perimetro">Perímetro Mojado</string>
+    <string name="descripcion_perimetro">Donde: "\n""\n" P = perímetro mojado "\n" b = ancho de plantilla
+                                    "\n" d = tirante del agua en el canal "\n" m = talud de las paredes del canal  </string>
+
+    <string name="descripcion_area_rectangulo">Donde: "\n""\n" A = área hidráulica "\n" b = ancho de plantilla
+                                    "\n" d = tirante del agua en el canal</string>
+    <string name="descripcion_area_triangular">Donde: "\n""\n" A = área hidráulica "\n" d = tirante del agua en el canal
+        "\n" m = talud de las paredes del canal</string>
+    <string name="descripcion_perimetro_triangular">Donde: "\n""\n" P = perímetro mojado "\n" d = tirante del agua en el canal
+        "\n" m = talud de las paredes del canal</string>
+    <string name="descripcion_perimetro_rectangular">Donde: "\n""\n" P = perímetro mojado "\n" b = ancho de plantilla
+                                    "\n" d = tirante del agua en el canal</string>
+
+    <string name="resultado">Resultados</string>
+    <string name="areaHidraulica">Área Hidráulica</string>
+
+
+    <string name="definicio_canal">Los canales son conductos abiertos o cerrados en los cuales el agua circula debido
+    a la acción de la gravedad y sin ninguna presión, pues la superficie libre del líquido está en contacto con la
+    atmósfera; esto quiere decir que el agua fluye impulsada por la presión atmosférica y de su propio peso.</string>
+
+    <string name="titulo_clasificacion">Clasificación de los canales</string>
+    <string name="canales_naturales">Canales naturales</string>
+    <string name="canal_natural_descripcion">Incluyen todos los cursos de agua que existen de manera natural en la tierra,
+    los cuales varían en tamaño desde pequeños arroyuelos en zonas montañosas, hasta quebradas, rios pequeños y grandes
+    arroyos, lagos y lagunas. Las corrientes subterráneas son también considerados canales naturales. La seeción transversal
+    de un canal natural es generalmente muy irregular y variable dentro de su recorrido.</string>
+    <string name="canales_artificiales">Canales artificiales</string>
+    <string name="canal_artificial_descripcion">Los canales artificlaes son todos aquellos construidos o
+    desarrollados mediante el esfuerzo de la mano del hombre, tales como: canales de riego, de navegación,
+    control de inundaciones, canales de centrlaes hidroeléctricas, alcantarillado pluvial,sanitario, canales de desborde,
+    canaletas de madera, cunetas a lo largo de carrreteras, cunetas de drenaje agrícola y canales de modelos construidos
+    en el laboratorio. Los canales artificiales usualmente se diseñan con forma geométricas regulares, también llamados
+    prismáticos,un canal construido con una sección transversal invariable y una pendiente de fondo constante se conoce
+    como canal prismático.</string>
+    <string name="secciones_transversales">Secciones transversales</string>
+    <string name="trapezial_descripcion">Se usa en canales de tierra debido a que proveen las pendientes necesarias para estabiliad
+    ,y en canales revestidos.</string>
+    <string name="rectangular_descripcion">Debido a que el rectángulo tiene lados verticales, por lo general, se utiliza
+     para canales construidos con materiales estables, acueductos de madera, para canales excavados en roca y para
+    canales revestidos.</string>
+    <string name="triangular_descripcion">Se usa para cunetas revestidas en las carreteras, también en canales de
+    tierra pequeños, fundamentalmente por facilidad de trazo. También se emplean revestidas, como alcantarillas de las
+    carreteras.</string>
+    <string name="circular_descripcion">El círculo es la sección más común para alcantarillados y alcantarillas de
+        tamaños pequeño y mediano.</string>
+    <string name="elementos_titulo">Elementos geométricos de los canales</string>
+    <string name="elementos_descripción">Los elementos geométricos son propiedades de una sección de canal que pueden ser definidos
+    por completo por la geometría de la sección y la profundidad del flujo.La forma más conocida de la sección
+    transversal de un canal es la trapecial.</string>
+    <string name="tirante_titulo">Tirante de agua o profundidad de flujo (d)</string>
+    <string name="tirante_descripcion">Es la distancia vertical desde el punto más bajo de una sección del canal
+    hasta la superficie libre, es decir, la profundidad máxima.</string>
+    <string name="ancho_superficial_titulo">Ancho superficial o espejo de agua (T)</string>
+    <string name="ancho_superficial_descripcion">Es el ancho de la superficie libre del agua, en m</string>
+    <string name="talud_titulo">Talud (m)</string>
+    <string name="talud_descripcion">Es la relación de la proyección horizontal a la vertical de la pared lateral
+     (se llama también talud de las paredes del canal). Es decir "m" es el valor de la proyección cuando la
+     vertical es 1. Se expresa como la cotangente del ángulo de reposo del material.</string>
+    <string name="coeficiente_rugosidad_titulo">Coeficiente de rugosidad (n)</string>
+    <string name="coeficiente_rugosidad_descripcion">Depende del tipo de material en que se aloje el canal.</string>
+    <string name="pendiente_titulo">Pendiente (S)</string>
+    <string name="area_hidrualica_titutlo">Área hidráulica (A)</string>
+    <string name="area_hidraulica_descripcion">Es la superficie ocupada por el agua en una sección transversal
+     normal cualquiera, se expresa en m²</string>
+    <string name="pendiente_descripcion">Es la pendiente longitudinal de la rasante del material.</string>
+    <string name="perimetro_titulo_info">Perímetro mojado (P)</string>
+    <string name="perimetro_descripcion">Es la longitud de la línea de contorno del área mojada entre el agua
+     y las paredes del canal, expresado en m</string>
+    <string name="radio_hridraulico_titulo">Radio hidráulico (R)</string>
+    <string name="radio_hidraulico_descripcion">Es el cociente del área hidráulica y el perímetro mojado.</string>
+    <string name="gasto_descripcion">Es el volumen de agua que pasa en la sección transversal del canal en la unidad de
+     tiempo, y se expresa en m³/s</string>
+    <string name="gasto_titulo">Gasto (Q)</string>
+    <string name="velocidad_titulo">Velocidad media (V)</string>
+    <string name="velocidad_descripcion">Es con la que el agua fluye en el canal, expresado en m/s</string>
+    <string name="numero_froude_titulo">Número de Froude (F)</string>
+    <string name="numero_froude_descripcion">Es el efecto de la gravedad sobre el estado de flujo que representa por la
+    relación entre las fuerzas inerciales y las fuerzas gravitacionales.</string>
+    <string name="informacion_titulo">Información</string>
+    <string name="conceptos_titulo">Conceptos</string>
+    <string name="formula_titulo">Fórmulas generales</string>
+    <string name="secciones">Secciones</string>
+
+    <string name="gasto_formula">Donde: "\n""\n" Q = gasto en m³/s "\n" n = Coeficiente de rugosidad de Manning
+    "\n" S = pendiente hidráulica del canal "\n" A = área hidráulica del canal en m² "\n" R = radio hidráulico en m</string>
+    <string name="radio_formula">Donde: "\n""\n" A = área hidráulica del canal en m² "\n" P = perímetro mojado en m</string>
+
+    <string name="maxima_eficiencia">Máxima Eficiencia</string>
+
+    <string name="diametro">Diámetro del canal cerrado</string>
+
+    <string name="formula_areaCirculo">Donde: "\n""\n" A = área hidráulica "\n" d = tirante del agua "\n" D = diámetro del canal
+    "\n" θ = ángulo formado a la altura del líquido con el centro (radianes) "\n" θ´ = ángulo formado a la altura del líquido con el centro (grados).</string>
+
+    <string name="formula_perimetro_circular">Donde: "\n""\n" P = perímetro mojado "\n" D = diámetro del canal
+    "\n" θ = ángulo formado a la altura del líquido con el centro (radianes).</string>
+
+    <string name="teta_formula">Donde: "\n"\n"  θ = ángulo formado a la altura del líquido con el centro (radianes).
+    "\n" D = diámetro del canal "\n" d =  tirante del agua.</string>
+
+    <string name="tabla_titulo">Tabla de coeficientes del númetro de Manning (n)</string>
+    <string name="minimo">Mínimo</string>
+    <string name="normal">Normal</string>
+    <string name="maximo">Máximo</string>
+    <string name="material">Material</string>
+    <string name="arroyo">Arroyo de montaña con muchas piedras</string>
+    <string name="tepetate">Tepetate (liso y uniforme)</string>
+    <string name="tierra">Tierra en buenas condiciones</string>
+    <string name="tierra_libre">Tierra libre en vegetación</string>
+    <string name="mamposteriaSeca">Mampostería seca</string>
+    <string name="mamposteria_cemento">Mampostería con cemento</string>
+    <string name="concreto">Concreto</string>
+    <string name="asbesto_cemento">Asbesto cemento</string>
+    <string name="polietlileno">Polietileno y PVC</string>
+    <string name="fierro">Fierro fundido</string>
+    <string name="acero">Acero</string>
+    <string name="vidrio_cobre">Vidrio, cobre</string>
+    <string name="info_general">Información General</string>
+    <string name="tipo_flujo">Tipo de flujo</string>
+
+    <string name="equipo">Aplicación creada en conjunto con la Asociación UMALUCS y el capítulo de Hidráulica de la
+    Universidad Autónoma de Guerrero.</string>
+
+    <string name="facebook_capitulo">Facebook: Capítulo Estudiantil De Hidráulica UAGro </string>
+    <string name="facebook_umalucs">Facebook: Asociación Umalucs </string>
+    <string name="correo">Correo de los desarrolladores: umalucsasociacion@gmail.com</string>
+
+    <string name="bibliografia">Bibliografía</string>
+    <string name="imgenes">Referencias</string>
+
+    <string name="froude_descripcion">Donde: "\n""\n"F = número de Froude "\n" V = velocidad en m/s "\n" g = gravedad (9.81 m/s²) "\n" d = tirante del canal en m</string>
+
+    <string-array name="datos">
+        <item> </item>
+        <item>Arroyo de montaña con muchas piedras</item>
+        <item>Tepetate (liso y uniforme)</item>
+        <item>Tierra en buenas condiciones</item>
+        <item>Tierra libre en vegetación</item>
+        <item>Mampostería seca</item>
+        <item>Mampostería con cemento</item>
+        <item>Concreto</item>
+        <item>Asbesto cemento</item>
+        <item>Polietileno y PVC</item>
+        <item>Fierro fundido</item>
+        <item>Acero</item>
+        <item>Vidrio, cobre</item>
+    </string-array>
+
+</resources>

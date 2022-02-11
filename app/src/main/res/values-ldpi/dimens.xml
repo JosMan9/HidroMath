@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacio_botones">15dp</dimen>
+    <dimen name="separacion_primer_dato">88dp</dimen>
+    <dimen name="ancho_botones">100dp</dimen>
+    <dimen name="altura_botones">50dp</dimen>
+    <dimen name="separacion_botones_orillas">35dp</dimen>
+    <dimen name="seapacion_textView">12dp</dimen>
+    <dimen name="seapacion_entre_datos">34dp</dimen>
+
+    <dimen name="seaparcion_primer_dato_editText">88dp</dimen>
+    <dimen name="seapacion_entre_TextView">40dp</dimen>
+    <dimen name="seapacion_spinner">35dp</dimen>
+    <dimen name="seapacion_editText_orillaDerecha">24dp</dimen>
+    <dimen name="ancho_spiner">150dp</dimen>
+    <dimen name="ancho_primer_EditText">48dp</dimen>
+    <dimen name="separacion_txt_resultado">10dp</dimen>
+    <dimen name="separacio_spinner2">35dp</dimen>
+
+    <dimen name="separacion_entre_TextView_areaGasto">50dp</dimen>
+    <dimen name="separacion_entre_TextView_areaGasto2">65dp</dimen>
+    <dimen name="separacion_spinner_areaGasto">70dp</dimen>
+    <dimen name="separacion_editText_areaGasto">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_gastoRectangular">50dp</dimen>
+    <dimen name="separacion_entre_TextView_gastoRectangular2">70dp</dimen>
+    <dimen name="separacion_spinner_gastoRectangular">60dp</dimen>
+    <dimen name="separacion_editText_gastoRectangular">50dp</dimen>
+
+    <dimen name="separacion_entre_TextView_perimetro_trapezial">40dp</dimen>
+    <dimen name="separacion_entre_TextView_perimetro_trapezial2">60dp</dimen>
+    <dimen name="separacion_spinner_periemtro_trapezial">35dp</dimen>
+    <dimen name="separacion_editText_perimetro_trapezial">30dp</dimen>
+</resources>
+

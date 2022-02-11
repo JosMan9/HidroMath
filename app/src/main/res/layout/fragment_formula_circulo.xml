@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".Formula_TrapezialFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardElevation="5dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@android:color/background_light"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="279dp"
+                    android:layout_height="178dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="53dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/circulo_corregido" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="166dp"
+                    android:layout_height="96dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="204dp"
+                    android:layout_marginLeft="204dp"
+                    android:layout_marginTop="314dp"
+                    android:contentDescription="TODO"
+                    android:src="@drawable/area_circulo_corregido" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="137dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="210dp"
+                    android:layout_marginEnd="130dp"
+                    android:layout_marginRight="149dp"
+                    android:gravity="center"
+                    android:text="@string/titulo_area"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/txt_formula_trapezialArea"
+                    android:layout_width="375dp"
+                    android:layout_height="229dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="242dp"
+                    android:layout_marginEnd="-174dp"
+                    android:layout_marginRight="-174dp"
+                    android:layout_toStartOf="@+id/imageView3"
+                    android:layout_toLeftOf="@+id/imageView3"
+                    android:text="@string/formula_areaCirculo"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="131dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="484dp"
+                    android:layout_marginEnd="130dp"
+                    android:layout_marginRight="136dp"
+                    android:text="@string/titulo_perimetro"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="202dp"
+                    android:layout_height="85dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="550dp"
+                    android:src="@drawable/perimetro_circulo" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="516dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_toEndOf="@+id/imageView4"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="@string/formula_perimetro_circular"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="114dp"
+                    android:layout_height="204dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="683dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toStartOf="@+id/imageView14"
+                    android:layout_toLeftOf="@+id/imageView14"
+                    android:text="@string/teta_formula"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="715dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/teta_formula" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
